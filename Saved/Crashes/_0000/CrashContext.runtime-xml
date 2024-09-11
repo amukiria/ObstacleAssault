@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>B998D59A4E309EC2D558AF9EC34E0220</ExecutionGuid>
+<CrashGUID>_0000</CrashGUID>
+<IsEnsure>false</IsEnsure>
+<IsStall>false</IsStall>
+<IsAssert>true</IsAssert>
+<CrashType>Assert</CrashType>
+<ErrorMessage>Fatal error: [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Internationalization\ICUInternationalization.cpp] [Line: 156] 
+ICU data directory was not discovered:
+../../../ObstacleAssault/Content/Internationalization
+../../../Engine/Content/Internationalization
+
+
+</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<ProcessId>0</ProcessId>
+<SecondsSinceStart>0</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsWithDebugInfo>false</IsWithDebugInfo>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE-ObstacleAssault</GameName>
+<ExecutableName></ExecutableName>
+<BuildConfiguration></BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName></PlatformName>
+<PlatformFullName></PlatformFullName>
+<PlatformNameIni></PlatformNameIni>
+<EngineMode></EngineMode>
+<EngineModeEx></EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion></EngineVersion>
+<EngineCompatibleVersion></EngineCompatibleVersion>
+<CommandLine></CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale></AppDefaultLocale>
+<BuildVersion></BuildVersion>
+<Symbols></Symbols>
+<IsUERelease>false</IsUERelease>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir></BaseDir>
+<RootDir></RootDir>
+<MachineId></MachineId>
+<LoginId></LoginId>
+<EpicAccountId></EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>0</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>0</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor></Misc.CPUVendor>
+<Misc.CPUBrand></Misc.CPUBrand>
+<Misc.PrimaryGPUBrand></Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor></Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<Misc.AnticheatProvider></Misc.AnticheatProvider>
+<MemoryStats.TotalPhysical>16895107072</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>24411299840</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>6499115008</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>10883674112</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>135409664</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>135409664</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>57892864</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>57892864</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>4</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+
+ObstacleAssault  0x00007ff644c10000 + 12f7159         
+ObstacleAssault  0x00007ff644c10000 + 12bdefa         
+ObstacleAssault  0x00007ff644c10000 + 12e666c         
+ObstacleAssault  0x00007ff644c10000 + 134dd93         
+ObstacleAssault  0x00007ff644c10000 + 8b2f25c         
+ObstacleAssault  0x00007ff644c10000 + 8b454aa         
+ObstacleAssault  0x00007ff644c10000 + 8b3a502         
+ObstacleAssault  0x00007ff644c10000 + 8b3a7aa         
+ObstacleAssault  0x00007ff644c10000 + 8b3d375         
+ObstacleAssault  0x00007ff644c10000 + 8b4d654         
+ObstacleAssault  0x00007ff644c10000 + c8ba28a         
+KERNEL32         0x00007ffb760f0000 + 1257d           
+</PCallStack>
+<PCallStackHash>9B6410B714C742C87C50487172C3C04F291862AC</PCallStackHash>
+<Threads><Thread><CallStack>ntdll            0x00007ffb76e70000 + a01b4           
+KERNELBASE       0x00007ffb74250000 + 39a9e           
+ObstacleAssault  0x00007ff644c10000 + 16ba02d         
+ObstacleAssault  0x00007ff644c10000 + c93299e         
+VCRUNTIME140     0x00007ffb4bd60000 + ecd0            
+ntdll            0x00007ffb76e70000 + a51df           
+ntdll            0x00007ffb76e70000 + 1e866           
+ntdll            0x00007ffb76e70000 + 54945           
+KERNELBASE       0x00007ffb74250000 + 5fabc           
+ObstacleAssault  0x00007ff644c10000 + 16be0fc         
+ObstacleAssault  0x00007ff644c10000 + 150332f         
+ObstacleAssault  0x00007ff644c10000 + 13cbe4d         
+ObstacleAssault  0x00007ff644c10000 + 12f7159         
+ObstacleAssault  0x00007ff644c10000 + 12bdefa         
+ObstacleAssault  0x00007ff644c10000 + 12e666c         
+ObstacleAssault  0x00007ff644c10000 + 134dd93         
+ObstacleAssault  0x00007ff644c10000 + 8b2f25c         
+ObstacleAssault  0x00007ff644c10000 + 8b454aa         
+ObstacleAssault  0x00007ff644c10000 + 8b3a502         
+ObstacleAssault  0x00007ff644c10000 + 8b3a7aa         
+ObstacleAssault  0x00007ff644c10000 + 8b3d375         
+ObstacleAssault  0x00007ff644c10000 + 8b4d654         
+ObstacleAssault  0x00007ff644c10000 + c8ba28a         
+KERNEL32         0x00007ffb760f0000 + 1257d           
+</CallStack>
+<IsCrashed>true</IsCrashed>
+<Registers></Registers>
+<ThreadID>24480</ThreadID>
+<ThreadName>GameThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll            0x00007ffb76e70000 + a01b4           
+KERNELBASE       0x00007ffb74250000 + 39a9e           
+ObstacleAssault  0x00007ff644c10000 + 17930c9         
+ObstacleAssault  0x00007ff644c10000 + 111ac43         
+ObstacleAssault  0x00007ff644c10000 + 114c966         
+ObstacleAssault  0x00007ff644c10000 + 1116c40         
+ObstacleAssault  0x00007ff644c10000 + 130d5a3         
+ObstacleAssault  0x00007ff644c10000 + 1734cb8         
+ObstacleAssault  0x00007ff644c10000 + 1728807         
+KERNEL32         0x00007ffb760f0000 + 1257d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20616</ThreadID>
+<ThreadName>Foreground Worker #0</ThreadName>
+</Thread>
+<Thread><CallStack>ucrtbase         0x00007ffb747d0000 + 2f780           
+ObstacleAssault  0x00007ff644c10000 + 164a58f         
+ObstacleAssault  0x00007ff644c10000 + 1646b23         
+ObstacleAssault  0x00007ff644c10000 + 165d10d         
+ObstacleAssault  0x00007ff644c10000 + 165c437         
+ObstacleAssault  0x00007ff644c10000 + 16712b6         
+ObstacleAssault  0x00007ff644c10000 + 1412648         
+ObstacleAssault  0x00007ff644c10000 + 13cf6bf         
+ObstacleAssault  0x00007ff644c10000 + 1126c5e         
+ObstacleAssault  0x00007ff644c10000 + 11269db         
+ObstacleAssault  0x00007ff644c10000 + 114c7f5         
+ObstacleAssault  0x00007ff644c10000 + 1116c40         
+ObstacleAssault  0x00007ff644c10000 + 130d5a3         
+ObstacleAssault  0x00007ff644c10000 + 1734cb8         
+ObstacleAssault  0x00007ff644c10000 + 1728807         
+KERNEL32         0x00007ffb760f0000 + 1257d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>26604</ThreadID>
+<ThreadName>Foreground Worker #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll            0x00007ffb76e70000 + a01b4           
+KERNELBASE       0x00007ffb74250000 + 39a9e           
+ObstacleAssault  0x00007ff644c10000 + 17930c9         
+ObstacleAssault  0x00007ff644c10000 + 111ac43         
+ObstacleAssault  0x00007ff644c10000 + 114c966         
+ObstacleAssault  0x00007ff644c10000 + 1116c40         
+ObstacleAssault  0x00007ff644c10000 + 130d5a3         
+ObstacleAssault  0x00007ff644c10000 + 1734cb8         
+ObstacleAssault  0x00007ff644c10000 + 1728807         
+KERNEL32         0x00007ffb760f0000 + 1257d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>26328</ThreadID>
+<ThreadName>Background Worker #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll            0x00007ffb76e70000 + a01b4           
+KERNELBASE       0x00007ffb74250000 + 39a9e           
+ObstacleAssault  0x00007ff644c10000 + 17930c9         
+ObstacleAssault  0x00007ff644c10000 + 111ac43         
+ObstacleAssault  0x00007ff644c10000 + 114c966         
+ObstacleAssault  0x00007ff644c10000 + 1116c40         
+ObstacleAssault  0x00007ff644c10000 + 130d5a3         
+ObstacleAssault  0x00007ff644c10000 + 1734cb8         
+ObstacleAssault  0x00007ff644c10000 + 1728807         
+KERNEL32         0x00007ffb760f0000 + 1257d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19112</ThreadID>
+<ThreadName>Background Worker #3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll            0x00007ffb76e70000 + a01b4           
+KERNELBASE       0x00007ffb74250000 + 39a9e           
+ObstacleAssault  0x00007ff644c10000 + 17930c9         
+ObstacleAssault  0x00007ff644c10000 + 111ac43         
+ObstacleAssault  0x00007ff644c10000 + 114c966         
+ObstacleAssault  0x00007ff644c10000 + 1116c40         
+ObstacleAssault  0x00007ff644c10000 + 130d5a3         
+ObstacleAssault  0x00007ff644c10000 + 1734cb8         
+ObstacleAssault  0x00007ff644c10000 + 1728807         
+KERNEL32         0x00007ffb760f0000 + 1257d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6400</ThreadID>
+<ThreadName>Background Worker #4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll            0x00007ffb76e70000 + a01b4           
+KERNELBASE       0x00007ffb74250000 + 39a9e           
+ObstacleAssault  0x00007ff644c10000 + 17930c9         
+ObstacleAssault  0x00007ff644c10000 + 111ac43         
+ObstacleAssault  0x00007ff644c10000 + 114c966         
+ObstacleAssault  0x00007ff644c10000 + 1116c40         
+ObstacleAssault  0x00007ff644c10000 + 130d5a3         
+ObstacleAssault  0x00007ff644c10000 + 1734cb8         
+ObstacleAssault  0x00007ff644c10000 + 1728807         
+KERNEL32         0x00007ffb760f0000 + 1257d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7276</ThreadID>
+<ThreadName>Background Worker #5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll            0x00007ffb76e70000 + a01b4           
+KERNELBASE       0x00007ffb74250000 + 39a9e           
+ObstacleAssault  0x00007ff644c10000 + 17930c9         
+ObstacleAssault  0x00007ff644c10000 + 111ac43         
+ObstacleAssault  0x00007ff644c10000 + 114c966         
+ObstacleAssault  0x00007ff644c10000 + 1116c40         
+ObstacleAssault  0x00007ff644c10000 + 130d5a3         
+ObstacleAssault  0x00007ff644c10000 + 1734cb8         
+ObstacleAssault  0x00007ff644c10000 + 1728807         
+KERNEL32         0x00007ffb760f0000 + 1257d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12492</ThreadID>
+<ThreadName>Background Worker #6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll            0x00007ffb76e70000 + a01b4           
+KERNELBASE       0x00007ffb74250000 + 39a9e           
+ObstacleAssault  0x00007ff644c10000 + 17930c9         
+ObstacleAssault  0x00007ff644c10000 + 111ac43         
+ObstacleAssault  0x00007ff644c10000 + 114c966         
+ObstacleAssault  0x00007ff644c10000 + 1116c40         
+ObstacleAssault  0x00007ff644c10000 + 130d5a3         
+ObstacleAssault  0x00007ff644c10000 + 1734cb8         
+ObstacleAssault  0x00007ff644c10000 + 1728807         
+KERNEL32         0x00007ffb760f0000 + 1257d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20068</ThreadID>
+<ThreadName>Background Worker #7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll            0x00007ffb76e70000 + a01b4           
+KERNELBASE       0x00007ffb74250000 + 39a9e           
+ObstacleAssault  0x00007ff644c10000 + 17930c9         
+ObstacleAssault  0x00007ff644c10000 + 111ac43         
+ObstacleAssault  0x00007ff644c10000 + 114c966         
+ObstacleAssault  0x00007ff644c10000 + 1116c40         
+ObstacleAssault  0x00007ff644c10000 + 130d5a3         
+ObstacleAssault  0x00007ff644c10000 + 1734cb8         
+ObstacleAssault  0x00007ff644c10000 + 1728807         
+KERNEL32         0x00007ffb760f0000 + 1257d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12216</ThreadID>
+<ThreadName>Background Worker #8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll            0x00007ffb76e70000 + a01b4           
+KERNELBASE       0x00007ffb74250000 + 39a9e           
+ObstacleAssault  0x00007ff644c10000 + 17930c9         
+ObstacleAssault  0x00007ff644c10000 + 111ac43         
+ObstacleAssault  0x00007ff644c10000 + 114c966         
+ObstacleAssault  0x00007ff644c10000 + 1116c40         
+ObstacleAssault  0x00007ff644c10000 + 130d5a3         
+ObstacleAssault  0x00007ff644c10000 + 1734cb8         
+ObstacleAssault  0x00007ff644c10000 + 1728807         
+KERNEL32         0x00007ffb760f0000 + 1257d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15948</ThreadID>
+<ThreadName>Background Worker #9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll            0x00007ffb76e70000 + a01b4           
+KERNELBASE       0x00007ffb74250000 + 39a9e           
+ObstacleAssault  0x00007ff644c10000 + 17930c9         
+ObstacleAssault  0x00007ff644c10000 + 130d1b5         
+ObstacleAssault  0x00007ff644c10000 + 1734cb8         
+ObstacleAssault  0x00007ff644c10000 + 1728807         
+KERNEL32         0x00007ffb760f0000 + 1257d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17552</ThreadID>
+<ThreadName>BackgroundThreadPool #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll            0x00007ffb76e70000 + a01b4           
+KERNELBASE       0x00007ffb74250000 + 39a9e           
+ObstacleAssault  0x00007ff644c10000 + 17930c9         
+ObstacleAssault  0x00007ff644c10000 + 130d1b5         
+ObstacleAssault  0x00007ff644c10000 + 1734cb8         
+ObstacleAssault  0x00007ff644c10000 + 1728807         
+KERNEL32         0x00007ffb760f0000 + 1257d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18780</ThreadID>
+<ThreadName>BackgroundThreadPool #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll            0x00007ffb76e70000 + a07b4           
+ntdll            0x00007ffb76e70000 + 55683           
+KERNELBASE       0x00007ffb74250000 + 4a03d           
+ObstacleAssault  0x00007ff644c10000 + 130d4f8         
+ObstacleAssault  0x00007ff644c10000 + 1734cb8         
+ObstacleAssault  0x00007ff644c10000 + 1728807         
+KERNEL32         0x00007ffb760f0000 + 1257d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17740</ThreadID>
+<ThreadName>FHeartBeatThread</ThreadName>
+</Thread>
+</Threads>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<IsRunningOnBattery>false</IsRunningOnBattery>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+<CrashTrigger>0</CrashTrigger>
+</PlatformProperties>
+<EngineData>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
